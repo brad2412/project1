@@ -235,10 +235,10 @@
           null
         ]
       },
-      "/Users/bam/turing/2mod/projects/project1/app/models/theater.rb": {
+      "/Users/bam/turing/2mod/projects/project1/app/models/movie.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
@@ -249,23 +249,25 @@
           null
         ]
       },
-      "/Users/bam/turing/2mod/projects/project1/app/controllers/theaters_controller.rb": {
+      "/Users/bam/turing/2mod/projects/project1/spec/models/theaters_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          null,
+          1,
+          2,
           null,
           null
         ]
       },
-      "/Users/bam/turing/2mod/projects/project1/app/controllers/application_controller.rb": {
+      "/Users/bam/turing/2mod/projects/project1/app/models/theater.rb": {
         "lines": [
+          1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1688741398
+    "timestamp": 1688768859
   }
 }
