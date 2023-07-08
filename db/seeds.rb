@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+# Theater.destroy_all
+
+# theater_1 = Theater.create!(name: "Riverside", open: true, review: 5)
+# theater_2 = Theater.create!(name: "Parklane", open: true, review: 4)

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "/theaters", to: "theaters#index"
+  get "/theaters/:id", to: "theaters#show"
 
   get "/movies", to: "movies#index"
 end
