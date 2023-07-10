@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   get "/movies", to: "movies#index"
   get "/movies/:id", to: "movies#show"
 
+  get "theaters/:theater_id/movies", to: "theaters_movies#index"
+  
 end
