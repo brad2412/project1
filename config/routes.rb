@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get "/theaters/:id", to: "theaters#show"
 
   get "/movies", to: "movies#index"
+  get "/movies/:id", to: "movies#show"
+
 end

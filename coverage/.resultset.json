@@ -227,6 +227,8 @@
           1,
           null,
           1,
+          1,
+          null,
           null
         ]
       },
@@ -238,7 +240,49 @@
       },
       "/Users/bam/turing/2mod/projects/project1/spec/features/movies/show_spec.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          2,
+          2,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       },
       "/Users/bam/turing/2mod/projects/project1/spec/features/theaters/index_spec.rb": {
@@ -341,6 +385,9 @@
           1,
           null,
           null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -365,6 +412,6 @@
         ]
       }
     },
-    "timestamp": 1688964279
+    "timestamp": 1688967482
   }
 }
