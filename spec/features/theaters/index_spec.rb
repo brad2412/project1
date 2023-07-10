@@ -8,11 +8,8 @@ RSpec.describe "shows theaters index page" do
     visit "/theaters"
     expect(page).to have_content("Theaters")
     expect(page).to have_content("Name: #{theater1.name}")
-    # expect(page).to have_content("Open: #{theater1.open}")
-    # expect(page).to have_content("Review: #{theater1.review}")
-    # expect(page).to have_content("Theaters")
-    # expect(page).to have_content("Theaters")
-    # expect(page).to have_content("Theaters")
+    expect(page).to have_content("Name: #{theater2.name}")
+  
   end
 end
 
