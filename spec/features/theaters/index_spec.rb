@@ -13,7 +13,6 @@ RSpec.describe "shows theaters index page" do
 
   it "should display theaters by most recently created" do
     visit "/theaters"
-require 'pry'; binding.pry
     expect(page).to have_content("Created At: #{theater2.created_at}")
     expect(page).to have_content("Created At: #{theater1.created_at}")
     # expect(theater2).to appear_before(theater1)
