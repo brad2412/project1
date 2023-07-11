@@ -1,5 +1,6 @@
 <h1> Theaters <h1/>
 
-<%= @theaters.each do |theater| %>
-  <li> Name: <%= theater.name  %></li>
-  <% end %>
+<% @theaters.each do |theater| %>
+  <li> Name: <%= theater.name %></li>
+  <li> Created At: <%= theater.created_at %></li>
+<% end %>
