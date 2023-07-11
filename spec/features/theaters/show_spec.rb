@@ -29,4 +29,21 @@ RSpec.describe "theaters show page" do
       expect(page).to have_content(theater1.movie_count)
     end
   end
+
+  describe "theater movie index link" do
+    it "the link should take you to the movie page" do
+
+      visit "/theaters/#{theater1.id}"
+      expect(page).to have_link("View this Theater's Movies")
+
+      click_link "View this Theater's Movies"
+      expect(current_path).to eq("/theaters/#{theater1.id}/movies")
+    end
+  end
 end
+
+# User Story 10, Parent Child Index Link
+
+# As a visitor
+# When I visit a parent show page ('/parents/:id')
+# Then I see a link to take me to that parent's `child_table_name` page ('/parents/:id/child_table_name')

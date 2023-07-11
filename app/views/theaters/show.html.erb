@@ -3,5 +3,6 @@
   <li> Open: <%= @theater.open %></li>
   <li> Review: <%= @theater.review %></li>
   <li> Movie Count: <%= @theater.movie_count %></li>
+  <%= link_to "View this Theater's Movies", "/theaters/#{@theater.id}/movies" %>
 </p>
 
