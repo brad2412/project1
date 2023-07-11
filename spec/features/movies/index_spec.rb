@@ -8,7 +8,7 @@ RSpec.describe "Movie index page" do
   let!(:movie2) { Movie.create!(name: "Spiderman", rated_r: false, review: 5, theater: theater2) }
   let!(:movie3) { Movie.create!(name: "Guardian's of the Galaxy", rated_r: false, review: 5, theater: theater1) }
 
-  describe "Movie attributes" do
+  describe "Movie index page" do
     it "should display the movie information" do
       visit "/movies"
 
@@ -32,6 +32,11 @@ RSpec.describe "Movie index page" do
   end
 end
 
+# User Story 8, Child Index Link
+
+# As a visitor
+# When I visit any page on the site
+# Then I see a link at the top of the page that takes me to the Child Index
 
 
 
