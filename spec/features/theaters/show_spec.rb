@@ -41,9 +41,3 @@ RSpec.describe "theaters show page" do
     end
   end
 end
-
-# User Story 10, Parent Child Index Link
-
-# As a visitor
-# When I visit a parent show page ('/parents/:id')
-# Then I see a link to take me to that parent's `child_table_name` page ('/parents/:id/child_table_name')

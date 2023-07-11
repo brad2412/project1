@@ -2,5 +2,9 @@
 
 <% @theaters.each do |theater| %>
   <li> Name: <%= theater.name %></li>
+  <li> Open: <%= theater.open %></li>
+  <li> Review: <%= theater.review %></li>
   <li> Created At: <%= theater.created_at %></li>
 <% end %>
+
+<%= link_to "New Theater", "/theaters/new"  %>

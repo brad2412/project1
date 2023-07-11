@@ -7,4 +7,20 @@ class TheatersController < ApplicationController
   def show
     @theater = Theater.find(params[:id])
   end
+
+  def new
+
+  end
+
+  def create
+    Theater.create(theater_params)
+    redirect_to "/theaters"
+  end
+
+
+
+  private
+  def theater_params
+    params.permit(:name, :open, :review)
+  end
 end
